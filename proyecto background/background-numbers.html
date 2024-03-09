@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>background numbers</title>
+</head>
+<body>
+    <div class="background-numbers" id="div_1">
+        <div class="content">
+            <h1>IsaacG.</h1>
+            <div class="nav">
+                <h3><a href="#">Home</a></h3>
+                <h3><a href="#">MyBlog</a></h3>
+                <h3><a href="#">Projects</a></h3>
+                <h3><a href="#">Contact</a></h3>
+            </div>
+            <div class="footer">
+                <p>Copyright 2024 © isaacG</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const div1 = document.getElementById('div_1');
+    
+        const numbersPerRow = 15;
+        const totalRows = 45;
+    
+        for (let i = 0; i < totalRows; i++) {
+            const row = document.createElement("div");
+            row.className = 'number-row';
+    
+            for (let j = 0; j < numbersPerRow; j++) {
+                var x = document.createElement("span");
+                x.textContent = Math.floor((Math.random() * 1000000000000000) + 9999999999999999);
+                row.appendChild(x);
+            }
+    
+            div1.appendChild(row);
+            row.style.animationDelay = `${i * 0.1}s`; 
+        }
+    </script>
+    
+    
+</body>
+</html>
