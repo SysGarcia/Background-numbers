@@ -23,7 +23,7 @@ The whole page layout:
 
 The background
 
-![ezgif-6-67c1edf326](https://github.com/Wolfuliam/Background-numbers/assets/147284006/232c16e2-a943-4237-afbf-d06e5180f51c)
+![ezgif-6-56756d3235](https://github.com/Wolfuliam/Background-numbers/assets/147284006/1917b43d-943e-48f4-84ef-bf8ecc47c028)
 
 
 With hovering:
